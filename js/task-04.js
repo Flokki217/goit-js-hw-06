@@ -1,8 +1,7 @@
 let counterValue = 0;
 
-const btnEl = document.querySelectorAll("button");
-const btnIncrementEl = btnEl[1];
-const btnDescrEl = btnEl[0];
+const btnIncrementEl = document.querySelector(`[data-action="increment"]`);
+const btnDescrEl = document.querySelector(`[data-action="decrement"]`);
 btnIncrementEl.addEventListener("click", incrementClick);
 btnDescrEl.addEventListener("click", descrClick);
 function incrementClick() {

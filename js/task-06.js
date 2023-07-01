@@ -1,8 +1,8 @@
 const inputEl = document.querySelector("#validation-input");
-inputEl.addEventListener("blur", validateInput);
+inputEl.addEventListener("blur", blurValidate);
 const inputLength = Number(inputEl.dataset.length);
-// console.log(inputLength)
-function validateInput() {
+
+function blurValidate() {
   if (inputEl.value.length === inputLength) {
     inputEl.classList.add("valid");
     inputEl.classList.remove("invalid");
