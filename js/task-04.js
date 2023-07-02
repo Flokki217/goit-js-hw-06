@@ -12,5 +12,5 @@ function descrClick() {
 }
 
 function updateDisplay(val) {
-  document.getElementById("value").innerHTML = val;
+  document.getElementById("value").textContent = val;
 }

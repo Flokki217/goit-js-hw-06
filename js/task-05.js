@@ -6,5 +6,5 @@ textInput.addEventListener("input", takeName);
 
 function takeName() {
   textOutput.textContent =
-    textInput.value === "" ? "Anonymous" : textInput.value;
+    textInput.value.trim() === "" ? "Anonymous" : textInput.value;
 }

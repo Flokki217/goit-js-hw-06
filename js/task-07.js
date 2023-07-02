@@ -6,3 +6,4 @@ inputEl.addEventListener("input", Abracadabra);
 function Abracadabra() {
   textEl.style.fontSize = inputEl.value + "px";
 }
+Abracadabra();
