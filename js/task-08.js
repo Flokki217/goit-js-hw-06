@@ -10,8 +10,10 @@ function checkSubmit(event) {
   if (email.value === "" || password.value === "") {
     return window.alert("Please, field can't be empty!");
   }
-  console.log(`User information = {
-        Email: ${email.value}   Password: ${password.value}
-    }`);
+  const User = {
+    email: email.value,
+    password: password.value,
+  };
+  console.log(User);
   event.currentTarget.reset();
 }
