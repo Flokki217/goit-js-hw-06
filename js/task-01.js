@@ -9,4 +9,4 @@ catElemItems.forEach(function (category) {
   console.log(`Elements: ${categoryElements}`);
 });
 
- 
+//  Вибачте але  як зробити інакше я не знаю
