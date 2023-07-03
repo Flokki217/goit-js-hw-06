@@ -25,7 +25,7 @@ function theCreator(amount) {
     }
     boxEl.insertAdjacentHTML("beforeend", doc);
   } else {
-    alert("oh sh*t this is wrong amount!!!");
+    alert("Oh sh*t this is wrong amount!!!");
   }
 }
 destroyBtn.addEventListener("click", function () {
